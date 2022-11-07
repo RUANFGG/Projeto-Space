@@ -1,0 +1,82 @@
+.container00 {
+    &.container01{
+        background-image: url(../img/home-20221102T185938Z-001/home/01.jpg);
+    }
+
+    &.container02{
+        background-image: url(../img/home-20221102T185938Z-001/home/02.gif);
+        
+    }
+
+    &.container03{
+        background-image: url(../img/home-20221102T185938Z-001/home/03.jpg);
+    }
+
+    &.container04{
+        background-image: url(../img/home-20221102T185938Z-001/home/04.jpg);
+    }
+    &.container05{
+        background-image: url(../img/falcon9-20221102T185919Z-001/falcon9/01.jpg);
+    }
+    &.container06{
+        background-image: url(../img/falcon9-20221102T185919Z-001/falcon9/02.jpg);
+    }
+    &.container07{
+        background-image: url(../img/falcon9-20221102T185919Z-001/falcon9/08.jpg);
+    }
+    &.container08{
+        background-image: url(../img/humanFlight-20221102T190002Z-001/humanFlight/01.jpg);
+    }
+    &.container09{
+        background-image: url(../img/humanFlight-20221102T190002Z-001/humanFlight/02.jpg);
+    }
+
+}
+.titlepadding{
+    padding-top: 200px;
+}
+.shortTitle{
+    width: 550px;
+    margin-bottom: 25px;
+}
+.mediumTitle{
+    width: 650px;
+    margin-bottom: 25px;
+}
+.footer{
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+
+        &:hover{
+            color: $link-hover;
+        }
+    }
+
+}
+@media (max-width: 750px){
+    .titlepadding{
+        padding-top: 120px;
+    }
+    .shortTitle, 
+    .mediumTitle{
+        width: auto;
+        font-size: 50px;
+    }
+}
+@media (max-width:735px){
+    .h6{
+        font-size: 15px;
+        margin-left: 15%;
+        padding-top: 13%;
+    }
+}
